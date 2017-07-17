@@ -101,11 +101,13 @@ function onloadFunc(){
   // console.log(response);
   // console.log(response.temp);
     if(this.response.length > 0){
+      printListItem(response.name)
       // console.log("length greater than 0");
       let listItem = response.weather[0].description
       // console.log(listItem);
       printListItem(listItem)
-//information for the main content
+      printListItem("🌡" + " is " + response.main.temp + "&#8457;")
+
       printListItem(response.main.humidity + "% humidity")
       //info for weatherresponse
 
