@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel:700");
+button {
+  font-size: 2rem;
+  padding: 2rem;
+  border-radius: 1px;
+  color: #9bf442;
+  background: #4059CC; }
+
+.seattle:hover {
+  color: transparent;
+  background: url(../images/seattle-small.JPG); }
+.seattle:active {
+  color: transparent;
+  background: url(../images/seattle-small2.JPG); }
+
+.london:hover {
+  color: transparent;
+  background: url(../images/london-small.JPG); }
+.london:active {
+  color: transparent;
+  background: url(../images/london-small2.JPG); }
+
+body {
+  font-family: "Cinzel", serif;
+  font-size: 1.5rem; }
+
+h1 {
+  margin: .2rem 0 .5rem 0; }
+
+p {
+  text-align: center;
+  margin: auto; }
+
+img {
+  display: block;
+  margin: auto; }
+
+ul {
+  list-style-type: none; }
+
+/*# sourceMappingURL=style.css.map */

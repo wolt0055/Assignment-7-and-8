@@ -1,0 +1,48 @@
+button{
+  font-size: 2rem;
+  padding: 2rem;
+  border-radius: 1px;
+  color: #9bf442;
+  background: $buttonColorDefault;
+  
+}
+
+
+@each $cityImage, $urls in $cityImage-map {
+  .#{$cityImage} {
+    $hover: nth($urls, 1);
+    $active: nth($urls, 2);
+
+
+    &:hover{
+      color: $transparent;
+      background: $hover;
+    }
+    &:active{
+      color: $transparent;
+      background: $active;
+
+    }
+  }
+}
+
+//button data pre each loop
+// #seattle {
+//   // font-size: 2rem;
+//   // padding: 2rem;
+//   // border-radius: 1px;
+//   &:hover{
+//     color: transparent;
+//     background: url(#{$assetPath}/seattle-small.JPG);
+//   }
+// }
+//
+// #london {
+//   // font-size: 2rem;
+//   // padding: 2rem;
+//   // border-radius: 1px;
+//   &:hover{
+//     color: transparent;
+//     background: url(#{$assetPath}/london-small.JPG);
+//   }
+// }

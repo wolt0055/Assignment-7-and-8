@@ -1,0 +1,14 @@
+//google fonts import
+@import url('https://fonts.googleapis.com/css?family=Cinzel:700');
+$cinzel: 'Cinzel', serif;
+
+$buttonColorDefault: #4059CC;
+$transparent: transparent;
+
+//seattle image
+$assetPath: "../images";
+
+$cityImage-map: (
+  seattle: (url(#{$assetPath}/seattle-small.JPG),url(#{$assetPath}/seattle-small2.JPG)),
+  london: (url(#{$assetPath}/london-small.JPG),url(#{$assetPath}/london-small2.JPG))
+)
